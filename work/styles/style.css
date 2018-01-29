@@ -1,0 +1,12 @@
+/* Additional Styles to HTML elements */
+
+H4 {
+    display: inline;
+    text-align: right;
+}
+.status {
+    margin-left: 180px;
+}
+#connectivity {
+    background-color: red;
+}

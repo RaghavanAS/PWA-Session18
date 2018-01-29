@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flight Scheduler</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Incluing Bootstrap, Jquery library and external Style sheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<!-- body starts here -->
+<body> 
+<br>
+<!-- Main section starts here. Contains the whether list -->
+<main class="main">
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading" id="connectivity" hidden>
+            <h3 class="panel-title"> Please check your connection settings</h3>
+        </div>
+        <div class="panel-heading">
+            <h3 class="panel-title">Arrivals</h3>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="well">
+            <h2 class="loc" id="location0">
+                <h4 class="time" id="Time0"></h4><h4 class="status" id="flight-status0"></h4>
+            </h2>
+        </div>
+        
+        <div class="well">
+                <h2 class="loc" id="location1"> 
+                    <h4 class="time" id="Time1"></h4><h4 class="status" id="flight-status1"></h4>
+                </h2>
+        </div>
+        <div class="well">
+                <h2 class="loc" id="location2">
+                    <h4 class="time" id="Time2"></h4><h4 class="status" id="flight-status2"></h4>
+                </h2>
+        </div>
+        <div class="well">
+                <h2 class="loc" id="location3"> 
+                    <h4 class="time" id="Time3"></h4><h4 class="status" id="flight-status3"></h4>
+                </h2>
+        </div>
+        <div class="well">
+                <h2 class="loc" id="location4">
+                    <h4 class="time" id="Time4"></h4><h4 class="status" id="flight-status4"></h4>
+                </h2>
+        </div>
+    </div>
+</div>
+<!-- main section ends here -->
+</main>
+<!-- including the app.js file -->
+<script src="scripts/app.js">
+</script> 
+<!-- bosy ends here -->
+</body>
+</html>
